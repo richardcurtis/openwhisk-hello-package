@@ -8,7 +8,7 @@ function main(params) {
     var name = params.name || params.payload || 'stranger';
     var place = params.place || 'i/o insights Richard v0.1';
     //challenge 
-    
+    var method = request.method;
     const request = require('request');
 
 const options = {  
@@ -31,5 +31,5 @@ request(options, function(err, res, body) {
     
 
     
-    return {payload:  'Hello, ' + name + ' from ' + place + ' !'};
+    return {payload:  'Hello, ' + name + ' from ' + place + ' !' + method};
 }
