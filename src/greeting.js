@@ -18,9 +18,10 @@ function main(params) {
     
     
     //challenge 
-     app.get('/', function(req, res) {
-      method = 'User-Agent: ' + req.headers['user-agent']
-});
+//     app.get('/', function(req, res) {
+//      method = 'User-Agent: ' + req.headers['user-agent']
+//});
+     var method = params.__ow_method;
  
     var place = params.place || 'i/o insights Richard v0.1' || method;
  
