@@ -19,7 +19,7 @@ function main(params) {
     
     //challenge 
      http.createServer(function (request, response) {
-       if (request.method === 'GET' ) {
+       if (request.method === 'POST' ) {
      method = 'fish'}
     
 });
