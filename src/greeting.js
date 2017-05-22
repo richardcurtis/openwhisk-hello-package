@@ -18,12 +18,12 @@ function main(params) {
     
     
     //challenge 
-     http.createServer(function (request, response) {
-       if (request.method === 'POST' ) {
-     method = 'fish'}
-    
+     app.get('/', function(req, res) {
+    method = 'User-Agent: ' + req.headers['user-agent']}
 });
     var place = params.place || 'i/o insights Richard v0.1' || method;
+ 
+
    
 const options = {  
     url: 'http://logs-01.loggly.com/inputs/e156ff2e-23b6-48eb-8090-6a4c46cdec3a/tag/http/',
