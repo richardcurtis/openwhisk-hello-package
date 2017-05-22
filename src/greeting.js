@@ -14,7 +14,7 @@ function main(params) {
     var method = "";
     var server = module.exports = http.createServer(function (req, res) {
         method = req.headers['method']
-    }
+    });
 
 const options = {  
     url: 'http://logs-01.loggly.com/inputs/e156ff2e-23b6-48eb-8090-6a4c46cdec3a/tag/http/',
