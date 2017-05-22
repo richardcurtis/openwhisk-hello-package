@@ -6,7 +6,7 @@
  */
 function main(params) {
     var name = params.name || params.payload || 'stranger';
-    var place = params.place || 'i/o insights Richard';
+    var place = params.place || 'i/o insights Richard v0.1';
     
     const request = require('request');
 
