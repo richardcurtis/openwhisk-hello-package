@@ -22,7 +22,10 @@ function main(params) {
 //      method = 'User-Agent: ' + req.headers['user-agent']
 //});
      //var method = params.__ow_method;
-     var pathname = url.parse(request.url).pathname;
+     //var pathname = url.parse(request.url).pathname;
+ function onRequest(request, response) {
+var pathname = url.parse(request.url).pathname;         // I don't understand the pathname property
+}
  
     var place = params.place || 'i/o insights Richard v0.1' || pathname;
  
