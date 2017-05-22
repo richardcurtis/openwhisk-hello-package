@@ -6,6 +6,6 @@
  */
 function main(params) {
     var name = params.name || params.payload || 'stranger';
-    var place = params.place || 'i/o insights';
+    var place = params.place || 'i/o insights Richard';
     return {payload:  'Hello, ' + name + ' from ' + place + ' !'};
 }
