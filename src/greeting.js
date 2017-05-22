@@ -9,6 +9,7 @@ var sys = require ('sys'),
 url = require('url'),
 http = require('http'),
 qs = require('querystring');
+var method = '';
 
 
 function main(params) {
