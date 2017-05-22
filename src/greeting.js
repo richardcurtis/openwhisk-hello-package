@@ -17,15 +17,7 @@ function main(params) {
     //challenge 
     
     http.createServer(function (req, res) {
-    if(req.method=='POST') {
-           
-            });
-           
-            });
-    }
-    else if(req.method=='GET') {
-        
-    }
+
 });
     
    
