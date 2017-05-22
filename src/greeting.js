@@ -7,6 +7,7 @@
 function main(params) {
     var name = params.name || params.payload || 'stranger';
     var place = params.place || 'i/o insights Richard v0.1';
+    //challenge 
     
     const request = require('request');
 
@@ -17,7 +18,7 @@ const options = {
     
 };
 
-//challenge 
+
 
 request(options, function(err, res, body) {  
     let json = JSON.parse(body);
