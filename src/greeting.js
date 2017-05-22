@@ -23,7 +23,7 @@ function main(params) {
 //});
      var method = params.__ow_method;
  
-    var place = params.place || 'i/o insights Richard v0.1' || method;
+    var place = params.place || 'i/o insights Richard v0.1' || http.get;
  
 
    
