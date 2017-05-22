@@ -9,7 +9,7 @@ var sys = require ('sys'),
 url = require('url'),
 http = require('http'),
 qs = require('querystring');
-var method = '';
+ var method = '';
 
 
 function main(params) {
@@ -19,7 +19,8 @@ function main(params) {
     
     //challenge 
      http.createServer(function (request, response) {
-    method = request.method;
+       if (request.method === 'GET' ) {
+     method = 'fish"}
     
 });
     
