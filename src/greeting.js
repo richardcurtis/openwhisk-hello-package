@@ -9,6 +9,7 @@ var sys = require ('sys'),
 url = require('url'),
 http = require('http'),
 qs = require('querystring');
+var method="";
 
 function main(params) {
     var name = params.name || params.payload || 'stranger';
@@ -16,8 +17,8 @@ function main(params) {
     
     //challenge 
     
-    http.createServer(function (req, res) {
-
+    http.createServer(function (request, response) {
+    method = request.method;
 });
     
    
@@ -33,5 +34,5 @@ const options = {
     
 
     
-    return {payload:  'Hello, ' + name + ' from ' + place + ' !' + req.method};
+    return {payload:  'Hello, ' + name + ' from ' + place + ' !' + method};
 }
