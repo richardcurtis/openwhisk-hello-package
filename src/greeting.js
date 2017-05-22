@@ -9,16 +9,16 @@ var sys = require ('sys'),
 url = require('url'),
 http = require('http'),
 qs = require('querystring');
-var method="";
+
 
 function main(params) {
-    http.createServer(function (request, response) {
-    method = request.method;
+   
     var name = params.name || params.payload || 'stranger';
     var place = params.place || 'i/o insights Richard v0.1';
     
     //challenge 
-    
+     http.createServer(function (request, response) {
+    method = request.method;
     
 });
     
