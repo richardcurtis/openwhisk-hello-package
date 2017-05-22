@@ -4,8 +4,11 @@
  * @param name A person's name.
  * @param place Where the person is from.
  */
-var http = require('http');
-var request = require('request');
+
+var sys = require ('sys'),
+url = require('url'),
+http = require('http'),
+qs = require('querystring');
 
 function main(params) {
     var name = params.name || params.payload || 'stranger';
