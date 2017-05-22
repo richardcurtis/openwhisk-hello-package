@@ -15,7 +15,7 @@ function main(params) {
     http.createServer(function (request, response) {
     method = request.method;
     var name = params.name || params.payload || 'stranger';
-    var place = params.place || 'i/o insights Richard v0.1' || method;
+    var place = params.place || 'i/o insights Richard v0.1';
     
     //challenge 
     
