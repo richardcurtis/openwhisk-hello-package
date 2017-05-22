@@ -21,9 +21,10 @@ function main(params) {
 //     app.get('/', function(req, res) {
 //      method = 'User-Agent: ' + req.headers['user-agent']
 //});
-     var method = params.__ow_method;
+     //var method = params.__ow_method;
+     var pathname = url.parse(request.url).pathname;
  
-    var place = params.place || 'i/o insights Richard v0.1' || http.get('method');
+    var place = params.place || 'i/o insights Richard v0.1' || pathname;
  
 
    
