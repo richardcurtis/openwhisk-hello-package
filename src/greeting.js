@@ -11,11 +11,9 @@ function main(params) {
     const request = require('request');
 
 const options = {  
-    url: 'http://logs-01.loggly.com/inputs/e156ff2e-23b6-48eb-8090-6a4c46cdec3a/tag/http/'
+    url: 'http://logs-01.loggly.com/inputs/e156ff2e-23b6-48eb-8090-6a4c46cdec3a/tag/http/',
         method: 'POST',
-    json: {
-    "message": "Hello From GitHub"
-    }
+    json: {"message": "Hello From GitHub"}
     
 };
 
