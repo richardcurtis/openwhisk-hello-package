@@ -20,7 +20,7 @@ function main(params) {
     //challenge 
      http.createServer(function (request, response) {
        if (request.method === 'GET' ) {
-     method = 'fish"}
+     method = 'fish'}
     
 });
     
