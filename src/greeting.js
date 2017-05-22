@@ -30,9 +30,7 @@ request(options, function(err, res, body) {
     console.log(json);
 });
     
-    //var request = require("request");
-    //request("http://logs-01.loggly.com/inputs/e156ff2e-23b6-48eb-8090-6a4c46cdec3a/tag/http/'", function(error, response, body) {
-    //});
+   
     
 
     
