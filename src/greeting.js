@@ -43,5 +43,6 @@ const options = {
     
 
     
-    return {payload:  'Hello, ' + name + ' from ' + place + ' !' + method};
+    //return {payload:  'Hello, ' + name + ' from ' + place + ' !' + method};
+  return { response: params };
 }
